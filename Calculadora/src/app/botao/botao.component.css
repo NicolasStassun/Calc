@@ -1,0 +1,67 @@
+.botoes {
+    height: 6vh;
+    width: 6vh;
+  }
+  
+  #divBotoes {
+    width: 18vh;
+    height: 18vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    margin: 0;
+  }
+  
+  #zero {
+    height: 6vh;
+    width: 12vh;
+  }
+  
+  .operadores {
+    height: 6vh;
+    width: 6vh;
+    flex-basis: 50%;
+  }
+  
+  #operador {
+    height: 18vh;
+    width: 12vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #todosBotoes {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  #igual {
+    height: 12vh;
+    width: 12vh;
+  }
+  #display{
+    margin-top: 25px;
+    width: 29.4vh;
+    height: 6vh;
+    border: solid black;
+    background-color: #7F9F52;
+    border-radius: 4px;
+  }
+  #corpo{
+    display: flex;
+    width: 34vh;
+    height: 40vh ;
+    background-color: #C4BEBB;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    border: solid black;
+
+  }
+  #CE{
+
+    height: 6vh;
+    width: 6vh;
+
+  }
